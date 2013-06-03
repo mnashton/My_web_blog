@@ -1,0 +1,376 @@
+
+
+body
+{
+	background-color: white;
+}
+
+.fieldset
+{
+	color: black;
+	border: solid 2px black;
+	width: 450px;
+}
+
+
+#header-wrap{
+	background: transparent url(../image/bg.png) repeat-x;
+	min-width: 1024px;
+	padding: 0px 10px;
+}
+
+
+#header{
+	height: 450px;
+	position: relative;
+	z-index: 30;
+	margin: 0px auto;
+
+}
+
+#index_co
+{
+
+	margin-top: 5%;
+	margin-left: 32%;
+}
+
+
+.Bdiv{
+	text-align:center;
+	display:none;
+	background: url(../image/beyonce.jpg) top;
+
+
+
+}
+
+#header-img{
+	height: 450px;
+	width: 1024px;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	margin-left: -512px;
+	background: transparent url(../image/beyonce.jpg) no-repeat center ;
+
+	
+}
+
+.wrap{
+	width: 1024px;
+	margin: 0px auto;
+	
+}
+
+#header-bord {
+background: transparent url(../image/header-bord.png) no-repeat;
+height: 450px;
+width: 1024px;
+position: absolute;
+z-index: 30;
+left: 50%;
+margin-left: -512px;
+
+}
+
+#barre{
+	background: transparent url(../image/header-menu.png) no-repeat;
+	height: 110px;
+	
+	
+}
+
+.menu{
+	float: right;
+	margin: 55px 0px 0px 0px;
+	 }
+
+.menu a{
+
+font-size: 16px;
+text-decoration: none;
+text-transform: uppercase;
+margin: 0px 15px 0px 15px;
+padding: 0px 0px 7px 0px;
+
+	color: white;
+	-webkit-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+	font-family: Impact, fantasy;
+	letter-spacing: 1px;
+
+
+}
+
+#titre {
+width: 500px;
+height: 150px;
+margin: 110px auto 0px auto;
+text-align: center;
+color: #fff;
+}
+
+.hl-title {
+display: inline-block;
+margin: 0px 0px 12px 0px;
+padding: 0px 0px 5px 0px;
+font-weight: 700;
+font-size: 35px;
+text-transform: uppercase;
+background: transparent url(../image/hl-under.png) center bottom no-repeat;
+text-shadow: 0px 1px 0px #333;
+border-radius: 20px;
+font-family:Impact, fantasy;
+}
+
+a.hl-lien {
+background: url(../image/play.png)center bottom no-repeat;
+color: #000;
+display: block;
+font-size: 16px;
+padding: 5px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+width: 20px;
+margin: 0px auto;
+text-decoration: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 20px rgba(232,44,255,0.2);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 20px rgba(232,44,255,0.9);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 20px rgba(232,44,255,0.2);
+    }
+}
+ 
+
+a.hl-lien:hover  
+{
+background : url(../image/play1.png)center bottom no-repeat;
+-webkit-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	-ms-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+	
+	display: block;
+	font-size: 16px;
+	padding: 5px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width: 20px;
+	margin: 0px auto;
+	text-decoration: none;
+    -webkit-box-shadow: 0px 0px 12px rgba(232,44,255,0.5);
+    -moz-box-shadow: 0px 0px 12px rgba(232,44,255,0.5);
+    box-shadow: 0px 0px 12px rgba(232,44,255,0.5);
+    -webkit-animation: pulse 1.5s infinite ease-in-out; 
+
+   
+}
+
+.menu:hover a
+{
+	text-shadow: 0px 0px 6px white;
+	filter: dropshadow(color=#000, offx=0, offy=0);
+}
+
+
+.menu a:hover 
+{
+	
+	color: silver;
+	text-shadow: 0px 0px 4px #000;
+	filter: dropshadow(color=#000, offx=0, offy=0);
+	
+}
+
+
+
+#wrapper
+{
+	
+	padding-left: 60px;
+	margin-top:50px;
+	width:1024px;
+}
+
+
+
+#ok3D
+{
+	 width:230px;
+    height:200px;
+    
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+    
+
+    
+
+    -webkit-perspective:500px;
+    -moz-perspective:500px;
+    -ms-perspective:500px;
+    -o-perspective:500px;
+    perspective:500px;
+}
+
+#cadre div
+{
+	 position:absolute;
+    width:230px;
+    height:200px;
+   
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+ 
+}
+#cadre div:first-child
+{
+	 background:white;
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    
+}
+
+#cadre a:first-child div
+{
+	color:black;
+    text-shadow:0 0 1px #111;
+    font-style:italic;
+    text-align:center;
+    font-size: 20px;   
+    font-family: fantasy sans-serif;
+
+}
+
+#cadre
+{
+	 width:230px;
+    height:200px;
+    box-shadow:0 0 15px grey;
+    -webkit-transform: rotateX(0deg);
+    -webkit-transition: all 0.7s ease;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform: rotateX(0deg);
+    -moz-transition: all 0.7s ease;
+    -moz-transform-style: preserve-3d;
+    -ms-transform: rotateX(0deg);
+    -ms-transition: all 0.7s ease;
+    -ms-transform-style: preserve-3d;
+    -o-transform: rotateX(0deg);
+    -o-transition: all 0.7s ease;
+    -o-transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    transition: all 0.7s ease;
+    transform-style: preserve-3d;
+}
+
+#ok3D:hover #cadre
+{
+	 -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+#clear
+{
+	clear: both;
+}
+
+#footer
+{
+	color: grey;
+}
+#copy
+{
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.link
+{	
+	float: right;
+	padding-right: 1%;
+	padding-bottom: 10px;
+	position: relative;
+}
+.link ul
+{
+	list-style-type: none;
+}
+.link li
+{
+	display: inline;
+	margin-right: 15px;
+	letter-spacing: 2px;
+}
+.link img
+{
+	color: #171717;
+	text-decoration: none;
+}
+.link img:hover
+{
+	color: #999999;
+}
+.link img
+{
+	width:50px;
+	height:50px;
+
+	 filter:sepia(1) blur(1px);
+	 -webkit-filter: sepia(1) blur(1px);
+	 -webkit-transition: all .2s ease-in-out;
+	 
+}
+.link img:hover
+{
+	width:50px;
+	height:50px;
+	
+	  filter:sepia(0) blur(0px);
+	 -webkit-filter: sepia(0) blur(0px);
+	  
+	 -webkit-transform: scale(1.1); 
+	 
+	
+}
+
+#footer
+{
+	display: block;
+}
+.foot
+{
+	display: inline-block;
+}
+.foot2
+{
+	
+	
+	font-family: Impact, fantasy;
+	font-size: 20px;
+	color: #AE8964;
+
+}
