@@ -24,7 +24,18 @@ if ( isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pwd'])) )
 if ($loginOK) {
   $_SESSION['login'] = $data['login'];
   $_SESSION['email'] = $data['email'];
-  echo "ok";
+  if ($_SESSION['login'] == "admin") {
+    ?><h3>Panel Administration</h3><br><br>
+      <?echo '<a href="aff.php">'.'Administration'.'</a><br>';
+      echo '<a href="../DB_function/liste.php">'.'Gestion des news'.'</a><br>';
+      echo '<a href="aff.php">'.'Gestion des utilisateurs'.'</a>';
+  }
+  else
+  {
+    ?><h3>Panel Blogger</h3><br><br>
+    <?echo '<a href="../DB_function/liste.php">'.'Gestion des news'.'</a>';
+  }
+
 }
 else {
   echo 'Une erreur est survenue, veuillez réessayer !'; 
