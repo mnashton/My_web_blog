@@ -1,0 +1,56 @@
+#header h2
+{
+
+color:orange;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+
+#champ
+{
+margin-left: 30px;
+margin-top: 60px;
+
+}
+
+#news
+{
+	margin-left: 40px;
+	margin-top: 30px;
+	width : 960px;
+}
+
+#news a
+{
+	text-decoration: none;
+	color :grey;
+}
+
+#news a:hover
+{
+	color : navy;
+}
+
+.test
+{
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin-left: 28px;
+	margin-right: 5px;
+}
+
+.test h1
+{
+	color:orange;
+	font-size: 25px;
+	margin-bottom: -30px;
+}
+
+.test h3
+{
+	color:purple;
+	font-size: 20px;
+	margin-bottom: -10px;
+}

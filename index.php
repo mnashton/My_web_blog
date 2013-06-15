@@ -1,10 +1,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="wf-opensanscondensed-n4-active wf-oxygen-n4-active wf-active">
 
 	<head profile="http://gmpg.org/xfn/11">
-		<meta name="author" content="merbou_d">
+		<meta name="author" content="merbou_d"/>
+		<meta charset="UTF-8"/>
 		<title>my_webblog</title>
-		<link rel="stylesheet" type="text/css" href="Feuille_CSS/style.css">
-		<link rel="stylesheet" type="text/css" href="Feuille_CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="Feuille_CSS/style.css"/>
+		<link rel="stylesheet" type="text/css" href="Feuille_CSS/reset.css"/>
 		<script rel="stylesheet" type="text/javascript" src="JS_func/index_co.js"></script>
 
 	</head>
@@ -17,11 +18,11 @@
 							<legend><h2>CODE OF DUTY'S PANEL ADMIN</h2></legend>
 							<form method="POST" action="admin/verif.php" </form><br />
 							<label for="login">Pseudo:</label>
-							<input type="text" name="login"><br>
+							<input type="text" name="login"/><br/>
 							<label for="password">Password:</label>
-							<input type="password" name="pwd"><br />
-							<input type="checkbox" name="option1" value="remember me"> Se souvenir de moi
-							<input type="submit" value="Se connecter" >
+							<input type="password" name="pwd"/><br/>
+							<input type="checkbox" name="option1" value="remember me"/> Se souvenir de moi
+							<input type="submit" value="Se connecter"/>
 							</fieldset>
 						</center><br />
 			</div>
@@ -67,15 +68,15 @@
 ?>
 	</div>
 	<div id="clear"></div>
-	<hr>
+	<hr/>
 		<div id="footer">
 			<div class="foot link">	
 				<ul>
-						<li><a href="#"><img src="image/i.ico" alt="info" title="About Us"></a></li>
-						<li><a href=m"mailto:#"><img src="image/m.png" alt="mail" title="Contact Us"></a></li>
-						<li><a href="#" class="facebook"><img src="image/f.png" alt="facebook" title="Add Us"></a></li>
-						<li><a href="#"><img src="image/t.png" alt="twitter" title="Follow Us"></a></li>
-						<li><a href="#"><img src="image/fr.png" alt="flux" title="Flux RSS"></a></li>
+						<li><a href="#"><img src="image/i.ico" alt="info" title="About Us"/></a></li>
+						<li><a href=m"mailto:#"><img src="image/m.png" alt="mail" title="Contact Us"/></a></li>
+						<li><a href="#" class="facebook"><img src="image/f.png" alt="facebook" title="Add Us"/></a></li>
+						<li><a href="#"><img src="image/t.png" alt="twitter" title="Follow Us"/></a></li>
+						<li><a href="#"><img src="image/fr.png" alt="flux" title="Flux RSS"/></a></li>
 				</ul>
 			</div>
 			
@@ -85,4 +86,4 @@
 
 		</div>	
 	</body>
-<html>
+</html>

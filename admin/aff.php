@@ -10,7 +10,7 @@ echo 'Pseudo : ',$_SESSION['login'],'<br />
      while ($user = mysql_fetch_assoc($sql)) 
      {
      	echo "<br>Login : ".$user['login']."<br>Mail : ".$user['email'] ."<br>Pwd : ".$user['pwd']."<br>";
-     	echo "<a href=\"deletu.php\">Supprimer</a>";
+     	echo "<a href=\"deletu.php?id={$user['id']}\">Supprimer</a>";
      }
 
 
